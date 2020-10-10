@@ -100,6 +100,17 @@ For each entry you can provide:
 | position  | Your position at the company | no           |
 | url       | URL of the company           | no           |
 
+#### `education.yaml`
+
+For each entry you can provide:
+
+| Parameter   | Value                   | Is required? |
+| ----------- | ----------------------- | ------------ |
+| institution | Name of the institution | yes          |
+| period      | Start / End date        | no           |
+| degree      | Your degree received    | no           |
+| url         | URL of the education    | no           |
+
 #### `social.yaml`
 
 List of your social media accounts. Please just fill the url parameter or leave it empty.

@@ -17,6 +17,7 @@ module.exports = ({ reporter }, options) => {
       "projects.yaml",
       "social.yaml",
       "work-history.yaml",
+      "education.yaml",
       "images/profile.jpg",
       "images/project.jpg",
     ]
