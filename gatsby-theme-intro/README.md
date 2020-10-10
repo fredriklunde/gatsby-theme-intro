@@ -1,7 +1,3 @@
-[![Version](https://img.shields.io/npm/v/@wkocjan/gatsby-theme-intro)](https://www.npmjs.com/package/@wkocjan/gatsby-theme-intro)
-[![Downloads](https://img.shields.io/npm/dt/@wkocjan/gatsby-theme-intro)](https://www.npmjs.com/package/@wkocjan/gatsby-theme-intro)
-![License](https://img.shields.io/npm/l/@wkocjan/gatsby-theme-intro)
-
 # Intro - Personal branding theme for developers
 
 Intro is an open source [Gatsby](https://www.gatsbyjs.org/) theme built specially for developers.
@@ -10,7 +6,7 @@ Tell your story by showing your skills, projects and career path.
 
 ## Preview
 
-[![Intro Theme](https://github.com/wkocjan/gatsby-theme-intro/blob/master/intro.png?raw=true)](https://www.youtube.com/watch?v=03rKddYHazo)
+[![Intro Theme](https://github.com/fredriklunde/gatsby-theme-intro/blob/master/intro.png?raw=true)](https://www.youtube.com/watch?v=03rKddYHazo)
 
 ### Live Demo
 
@@ -35,7 +31,7 @@ https://weeby.studio/intro/preview
 mkdir my-site
 cd my-site
 yarn init -y
-yarn add gatsby react react-dom @wkocjan/gatsby-theme-intro
+yarn add gatsby react react-dom @fredriklunde/gatsby-theme-intro
 ```
 
 ### Enable theme
@@ -46,7 +42,7 @@ Then add the theme to your `gatsby-config.js`.
 module.exports = {
   plugins: [
     {
-      resolve: "@wkocjan/gatsby-theme-intro",
+      resolve: "@fredriklunde/gatsby-theme-intro",
       options: {
         theme: "classic",
       },
@@ -136,7 +132,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@wkocjan/gatsby-theme-intro",
+      resolve: "@fredriklunde/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",
@@ -178,7 +174,7 @@ You can use Gatsby component shadowing technique to customize the theme.
 
 - All components are located in `src/components` directory.
 - All parameters accepted by components are defined using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). You can find types definitions in one centeral `src/types` location.
-- Code you want to overwrite should be placed within `src/@wkocjan/gatsby-theme-intro/` directory.
+- Code you want to overwrite should be placed within `src/@fredriklunde/gatsby-theme-intro/` directory.
 
 Please refer to [the official documentation](https://www.gatsbyjs.org/docs/themes/shadowing/) to learn more.
 
@@ -193,7 +189,7 @@ module.exports = {
   (...)
   plugins: [
     {
-      resolve: "@wkocjan/gatsby-theme-intro",
+      resolve: "@fredriklunde/gatsby-theme-intro",
       options: {
         (...)
         theme: {
