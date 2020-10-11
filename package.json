@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "@fredriklunde/gatsby-theme-intro",
   "version": "1.0.15",
   "main": "index.js",
   "license": "MIT",
